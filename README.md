@@ -28,7 +28,7 @@ echo xfce4-session > ~/.xsession
 
 run ``` 
 sudo nano /etc/xrdp/startwm.sh
-``` , then comment out the following lines by placing a ``` # ``` before them ``` test -x /etc/x11...``` and the next line; ``` echo /bin/sh /etc/x11... ```
+``` , then comment out the following lines by placing a ``` # ``` before them ``` test -x /etc/x11...``` and the next line; ``` exec /bin/sh /etc/X11/Xsession ```
 </li>
 
 <li>
@@ -38,7 +38,15 @@ Now, add the following on a new line at the very end  ``` startxfce4 ```  .
 </li>
 
 <li>
-Save using CTRL+O then press enter and then exit using CTRL+X.
+Save using CTRL+S and then exit using CTRL+X.
+</li>
+
+<li>
+
+Start the remote desktop server with
+```
+sudo /etc/init.d/xrdp start
+```
 </li>
 
 <li>
