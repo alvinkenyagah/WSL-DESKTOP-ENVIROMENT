@@ -8,7 +8,6 @@ Install xfce4 enviroment
 
 ```
 sudo apt install -y xfce4 
-
 ```
 </li>
 
@@ -35,17 +34,19 @@ Then, run the following:
 
 run ``` 
 sudo nano /etc/xrdp/startwm.sh
-``` , then comment out the following lines by placing a ``` # ``` before them: ``` test -x /etc/x11...``` and the next line; ``` echo /bin/sh /etc/x11... ```
+``` , then comment out the following lines by placing a ``` # ``` before them ``` test -x /etc/x11...``` and the next line; ``` echo /bin/sh /etc/x11... ```
 </li>
 
 <li>
-Now, add the following on a new line at the very end  ``` startxfce4 ```
+Now, add the following on a new line at the very end ``` startxfce4 ```
+
 </li>
 
 <li>
 Save using CTRL+S and exit using CTRL+X.
 </li>
 
-<li>Now, open Remote Desktop on your Windows host machine, and connect to localhost:3390.</li>
+<li>Now, open Remote Desktop on your Windows host machine, and connect to ``` localhost:3390 ```  .
+</li>
 
 </ol>
