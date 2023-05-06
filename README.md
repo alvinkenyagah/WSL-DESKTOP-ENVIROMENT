@@ -7,16 +7,10 @@
 Install xfce4 enviroment
 
 ```
-sudo apt install -y xfce4 
+sudo apt install -y xrdp xfce4 xfce4-goodies
 ```
 </li>
 
-<li>
-
-```
-sudo apt install xfce4-goodies
-```
-</li>
 
 <li>
 Then, run the following:
