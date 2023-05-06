@@ -5,12 +5,15 @@
 <ol>
 <li>
 Install xfce4 enviroment
+
 ```
 sudo apt install -y xfce4 
+
 ```
 </li>
 
 <li>
+
 ```
 sudo apt install xfce4-goodies
 ```
@@ -18,6 +21,7 @@ sudo apt install xfce4-goodies
 
 <li>
 Then, run the following:
+
 ```
     sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
     sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
@@ -28,7 +32,13 @@ Then, run the following:
 </li>
 
 <li>
-run ``` sudo nano /etc/xrdp/startwm.sh ```  , then comment out the following lines by placing a # before them: test -x /etc/x11... and the next line; echo /bin/sh /etc/x11...
+
+run
+
+``` 
+sudo nano /etc/xrdp/startwm.sh
+``` 
+, then comment out the following lines by placing a # before them: test -x /etc/x11... and the next line; echo /bin/sh /etc/x11...
 </li>
 
 <li>
