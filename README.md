@@ -38,7 +38,7 @@ Now, add the following on a new line at the very end  ``` startxfce4 ```  .
 </li>
 
 <li>
-Save using CTRL+S and exit using CTRL+X.
+Save using CTRL+O then press enter and then exit using CTRL+X.
 </li>
 
 <li>
