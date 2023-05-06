@@ -33,16 +33,13 @@ Then, run the following:
 
 <li>
 
-run
-
-``` 
+run ``` 
 sudo nano /etc/xrdp/startwm.sh
-``` 
-, then comment out the following lines by placing a # before them: test -x /etc/x11... and the next line; echo /bin/sh /etc/x11...
+``` , then comment out the following lines by placing a # before them: ``` test -x /etc/x11...``` and the next line; ``` echo /bin/sh /etc/x11... ```
 </li>
 
 <li>
-Now, add the following on a new line at the very end: startxfce4
+Now, add the following on a new line at the very end: ``` startxfce4 ```
 </li>
 
 <li>
