@@ -38,7 +38,11 @@ sudo nano /etc/xrdp/startwm.sh
 </li>
 
 <li>
-Now, add the following on a new line at the very end ``` startxfce4 ```
+Now, add the following on a new line at the very end 
+
+```
+startxfce4
+```
 
 </li>
 
@@ -46,7 +50,12 @@ Now, add the following on a new line at the very end ``` startxfce4 ```
 Save using CTRL+S and exit using CTRL+X.
 </li>
 
-<li>Now, open Remote Desktop on your Windows host machine, and connect to ``` localhost:3390 ```  .
+<li>Now, open Remote Desktop on your Windows host machine, and connect to  
+
+```
+localhost:3390 
+``` 
+
 </li>
 
 </ol>
