@@ -38,7 +38,7 @@ sudo nano /etc/xrdp/startwm.sh
 </li>
 
 <li>
-Now, add the following on a new line at the very end  ``` startxfce4 ```  .
+Now, add the following on a new line at the very end  ``` # ```  ``` startxfce4   .
 
 </li>
 
