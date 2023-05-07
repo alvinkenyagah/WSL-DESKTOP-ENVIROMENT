@@ -1,6 +1,6 @@
-# WSL-DESKTOP-ENVIROMENT
+## WSL-DESKTOP-ENVIROMENT
 
-## How to have a desktop enviroment on your WSL.
+## How to set up a desktop enviroment on your WSL.
 
 <ol>
 <li>
