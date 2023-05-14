@@ -1,6 +1,6 @@
 ## WSL-DESKTOP-ENVIROMENT
 
-## How to set up a desktop enviroment on your WSL.
+## How to set up a desktop enviroment on Ubuntu WSL.
 
 <ol>
 <li>
